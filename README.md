@@ -4,26 +4,22 @@ A multimodal construction robot navigation dataset featuring RGB-D images, LiDAR
 Data source URL for scene extraction：https://drive.google.com/drive/folders/1hKJnR0KDT_FAqUwofRv5xjQPbxLKdJD0?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto
 ## Public Construction-Site Datasets
 
-In addition to the self-collected multimodal data acquired using the ALC wall-panel installation robot, this repository provides references to four publicly available construction-site datasets relevant to visual perception and object recognition in complex construction environments. These datasets cover construction machinery, workers, personal protective equipment, and construction materials, providing complementary resources for developing and evaluating construction-oriented perception models.
+## Public Construction-Site Datasets
 
-| Dataset | Dataset Scale | Annotation Categories | Access and License |
+The TCAF-Nav training dataset integrates self-collected multimodal observations with selected samples from two publicly available construction-site datasets, MOCS and SODA. These datasets provide complementary visual information on construction machinery, workers, safety equipment, and construction materials.
+
+| Dataset | Scale | Main Content | Reference |
 |---|---|---|---|
-| **MOCS (Moving Objects in Construction Sites)** | 41,668 images; 222,861 annotated instances | 13 categories of construction machinery and workers; bounding boxes and segmentation masks | Application-based access; CC BY-NC 4.0 |
-| **ACID (Construction Site Object Detection Benchmark)** | 10,000 images; 15,767 annotated instances | 10 construction machinery categories | Application-based access; reported CC BY 4.0 |
-| **SODA (Site Object Detection dAtaset)** | 19,846 images | 15 categories, including workers, helmets, safety vests, boards, wood, rebar, bricks, scaffolds, handcarts, and cutters | Baidu Netdisk; refer to the official dataset page for license terms |
-| **Pictor-v3** | 1,472 images reported in the publication; 774 publicly released images with 2,496 worker instances | Worker, hard hat, and safety vest | Public Google Drive repository; no explicit license identified |
+| **MOCS** | 41,668 images; 222,861 annotated instances | 13 categories of moving construction objects, including machinery and workers | An et al., *Automation in Construction*, 2021 |
+| **SODA** | 19,846 images | 15 categories of construction-site objects, including workers, safety equipment, and construction materials | Duan et al., *arXiv*, 2022 |
 
-### Dataset Access
+### Dataset Usage
 
-- **MOCS:** Access requires submitting the [dataset application form](https://www.wjx.cn/vm/wWGwSOc.aspx). The dataset is distributed subject to approval, and commercial use requires additional authorization.
-- **ACID:** Access is provided through a dataset application process. For access inquiries, contact `dr.boxiao@gmail.com`. License and commercial-use conditions should be confirmed with the dataset provider.
-- **SODA:** Distributed through Baidu Netdisk (extraction code: `9cnh`). Users should consult the official source for download instructions and licensing information.
-- **Pictor-v3:** Distributed through a public Google Drive folder. Users should refer to the original publication and repository for the dataset and associated pretrained weights.
+MOCS and SODA are used as supplementary visual data sources, while the self-collected dataset provides RGB-D observations, LiDAR measurements, robot poses, and task-conditioned navigation annotations.
 
-### Usage and Attribution
+The original datasets remain the intellectual property of their respective authors and are not redistributed through this repository. Users should obtain them from their official sources and comply with the applicable licenses and citation requirements.
 
-The datasets listed above are maintained by their respective authors and are not redistributed through this repository. Their inclusion is intended to document relevant public resources for construction-site visual perception.
+### References
 
-The self-collected TCAF-Nav data and their associated annotations are described separately in this repository. Any use of external datasets for training or evaluation should be documented according to the actual experimental configuration.
-
-Users are responsible for complying with the original datasets' licenses, access restrictions, and citation requirements. In particular, access to a publicly available dataset does not automatically grant permission for commercial use or redistribution.
+1. An, X., Zhou, L., Liu, Z., Wang, C., Li, P., and Li, Z. (2021). Dataset and benchmark for detecting moving objects in construction sites. *Automation in Construction*, 122, 103482.
+2. Duan, R., Deng, H., Tian, M., Deng, Y., and Lin, J. (2022). SODA: Site Object Detection dAtaset for Deep Learning in Construction. *arXiv preprint*, arXiv:2202.09554.
