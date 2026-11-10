@@ -1,0 +1,29 @@
+path: /home/q/yolo/datasets/vlm_sam_dense_20260922_sub6_yolo
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: wall_panel
+  1: concrete_pillar
+  2: wall
+  3: window
+  4: door
+  5: forklift
+  6: pallet
+  7: trolley_cart
+  8: portable_barrier
+  9: fire_extinguisher
+  10: safety_sign
+  11: worker
+  12: walkable_floor
+  13: machine
+  14: pipe
+  15: ceiling
+  16: table
+  17: box
+  18: ladder
+  19: railing
+  20: stairs
+  21: cone
+  22: shelf
+  23: other_object

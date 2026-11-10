@@ -1,0 +1,74 @@
+[
+ {
+  "id": 1,
+  "name": "wall_panel",
+  "name_zh": "墙板",
+  "supercategory": "structure"
+ },
+ {
+  "id": 2,
+  "name": "concrete_pillar",
+  "name_zh": "混凝土柱",
+  "supercategory": "structure"
+ },
+ {
+  "id": 3,
+  "name": "wall",
+  "name_zh": "墙体",
+  "supercategory": "structure"
+ },
+ {
+  "id": 4,
+  "name": "window",
+  "name_zh": "窗户",
+  "supercategory": "structure"
+ },
+ {
+  "id": 5,
+  "name": "door",
+  "name_zh": "门",
+  "supercategory": "structure"
+ },
+ {
+  "id": 6,
+  "name": "forklift",
+  "name_zh": "叉车",
+  "supercategory": "logistics"
+ },
+ {
+  "id": 7,
+  "name": "pallet",
+  "name_zh": "托盘",
+  "supercategory": "logistics"
+ },
+ {
+  "id": 8,
+  "name": "trolley_cart",
+  "name_zh": "平板推车",
+  "supercategory": "logistics"
+ },
+ {
+  "id": 9,
+  "name": "portable_barrier",
+  "name_zh": "移动护栏",
+  "supercategory": "safety"
+ },
+ {
+  "id": 10,
+  "name": "fire_extinguisher",
+  "name_zh": "灭火器",
+  "supercategory": "safety"
+ },
+ {
+  "id": 11,
+  "name": "safety_sign",
+  "name_zh": "安全标识",
+  "supercategory": "safety"
+ },
+ {
+  "id": 12,
+  "name": "worker",
+  "name_zh": "人员",
+  "supercategory": "person"
+ }
+]

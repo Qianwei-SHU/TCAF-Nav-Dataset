@@ -1,0 +1,75 @@
+{
+ "images": 95,
+ "annotations": 265,
+ "images_without_objects": 10,
+ "objects_per_image_mean": 2.789,
+ "per_class": {
+  "wall_panel": {
+   "name_zh": "墙板",
+   "instances": 17,
+   "images": 15
+  },
+  "concrete_pillar": {
+   "name_zh": "混凝土柱",
+   "instances": 58,
+   "images": 44
+  },
+  "wall": {
+   "name_zh": "墙体",
+   "instances": 41,
+   "images": 34
+  },
+  "window": {
+   "name_zh": "窗户",
+   "instances": 14,
+   "images": 9
+  },
+  "door": {
+   "name_zh": "门",
+   "instances": 9,
+   "images": 9
+  },
+  "forklift": {
+   "name_zh": "叉车",
+   "instances": 12,
+   "images": 11
+  },
+  "pallet": {
+   "name_zh": "托盘",
+   "instances": 0,
+   "images": 0
+  },
+  "trolley_cart": {
+   "name_zh": "平板推车",
+   "instances": 85,
+   "images": 43
+  },
+  "portable_barrier": {
+   "name_zh": "移动护栏",
+   "instances": 0,
+   "images": 0
+  },
+  "fire_extinguisher": {
+   "name_zh": "灭火器",
+   "instances": 7,
+   "images": 6
+  },
+  "safety_sign": {
+   "name_zh": "安全标识",
+   "instances": 22,
+   "images": 20
+  },
+  "worker": {
+   "name_zh": "人员",
+   "instances": 0,
+   "images": 0
+  }
+ },
+ "split_images": {
+  "test": 95
+ },
+ "mean_polygon_points": 51.8,
+ "caption_missing_en": 0,
+ "warnings": 0,
+ "semantic_masks": 95
+}
