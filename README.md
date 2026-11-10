@@ -3,6 +3,8 @@ A multimodal construction robot navigation dataset featuring RGB-D images, LiDAR
 
 Data source URL for scene extraction：https://drive.google.com/drive/folders/1hKJnR0KDT_FAqUwofRv5xjQPbxLKdJD0?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto
 ## Public Construction-Site Datasets
+![Uploading pred_sheet.jpg…]()
+
 
 ## Public Construction-Site Datasets
 
